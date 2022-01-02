@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/six-degree/static/css/main.dcdee633.css",
+    "main.js": "/six-degree/static/js/main.2fbd4b91.js",
+    "static/js/787.caff6388.chunk.js": "/six-degree/static/js/787.caff6388.chunk.js",
+    "index.html": "/six-degree/index.html",
+    "main.dcdee633.css.map": "/six-degree/static/css/main.dcdee633.css.map",
+    "main.2fbd4b91.js.map": "/six-degree/static/js/main.2fbd4b91.js.map",
+    "787.caff6388.chunk.js.map": "/six-degree/static/js/787.caff6388.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcdee633.css",
+    "static/js/main.2fbd4b91.js"
+  ]
+}
