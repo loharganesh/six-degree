@@ -1,0 +1,27 @@
+.add-user-container {
+  position: absolute;
+  width: 308px;
+
+  padding: 25px;
+  border: 1px solid var(--border-color);
+  background-color: #ffffff;
+
+  left: 10px;
+  bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  z-index: 5;
+}
+
+.input {
+  outline: none;
+  border-radius: 50px;
+  border: 1px solid var(--border-color);
+  padding: 15px 25px;
+  background-color: #f2f4f5;
+}

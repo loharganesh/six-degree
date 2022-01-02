@@ -5,9 +5,142 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  line-height: 1.7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  height: 100vh;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Colors */
+:root {
+  --border-color: #e4eaec;
+}
+
+/* Dimenssions */
+.full-width {
+  width: 100%;
+}
+
+/* Containers */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex: 1;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+/* Margins */
+/* Margin Left */
+.ml-sm {
+  margin-left: 15px;
+}
+
+/* Margin Top */
+.mt-sm {
+  margin-top: 10px;
+}
+.mt-rg {
+  margin-top: 25px;
+}
+
+.mt-lg {
+  margin-top: 50px;
+}
+
+/* Padding */
+.con-sm {
+  padding: 15px 25px;
+}
+
+.pt-lg {
+  padding-top: 50px;
+}
+
+.space-sm {
+  width: 10px;
+  height: 10px;
+}
+
+.space-rg {
+  width: 25px;
+  height: 25px;
+}
+
+/* Borders */
+.border-r-sm {
+  border-right: 1px solid var(--border-color);
+}
+
+/* Button */
+.btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1000px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: black;
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid var(--border-color);
+  color: black;
+}
+
+.btn-regular {
+  height: 45px;
 }

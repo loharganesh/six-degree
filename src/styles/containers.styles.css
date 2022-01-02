@@ -1,0 +1,13 @@
+/* Container */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.con-pad-lg {
+  padding: 50px 50px;
+}
+
+.con-pad-rg {
+  padding: 15px 25px;
+}

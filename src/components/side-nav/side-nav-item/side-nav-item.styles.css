@@ -1,0 +1,10 @@
+.side-nav-item-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.side-nav-link {
+  text-decoration: none;
+  color: inherit;
+}
